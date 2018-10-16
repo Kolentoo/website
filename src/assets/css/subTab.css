@@ -1,0 +1,143 @@
+.contentContainer{
+  width: 100%;
+  padding: 50px 0 ;
+  background-color:#F1F1F1 ;
+  overflow: hidden;
+  position: relative;
+}
+.content{
+  width: 100%;
+  padding: 0 200px;
+}
+.sub {
+  /* width: 100%; */
+  padding: 0 200px;
+}
+.newsub {
+  padding: 0 200px;
+}
+.sub2 {
+  padding:0 200px;
+}
+.sub3 {
+  padding:0 220px 0 200px;
+}
+.subcon {
+  margin: 34px;
+  padding: 60px 130px 90px;
+}
+.stxt dl {
+  margin-left: 37%;width: 63%;
+}
+
+.marginsub {
+  width: 100%;
+  margin: 0 200px;
+}
+.mainGroup{
+  width: 100%;
+  /*min-height: calc(100vh - 180px);*/
+  position: relative;
+  text-align: left;
+}
+
+.titleHint{
+  color: #173444;
+  font-size: 18px;
+  display: flex;align-items: center;
+  margin-left: auto;
+  justify-content: flex-end;
+  max-width: 300px;
+  margin-top: 20px;
+}
+.titleHint div{
+  width: 90px;
+  height: 0px;
+  border: 1px solid #173444;
+  margin: 0 30px;
+}
+
+@media screen and (max-width: 1500px){
+  .content{
+    padding:0 120px;
+  }
+  .sub{
+    padding:0 120px;
+  }
+  .marginsub{
+    margin:0 120px;
+  }
+  .subcon {
+    margin: 17px;
+    padding: 30px 65px 45px;
+  }
+  .newsub {
+    padding: 0 120px;
+  }
+  .sub2 {
+    padding:0 120px;
+  }
+  .sub3 {
+    padding:0 140px 0 120px;
+  }
+}
+@media screen and (max-width: 1279px){
+  .content{
+    padding:0 80px;
+  }
+  .sub{
+    padding:0 80px;
+  }
+  .marginsub{
+    margin:0 80px;
+  }
+  .subcon {
+    margin: 10px;
+    padding: 20px 30px 30px;
+  }
+  .newsub {
+    padding:0 80px;
+  }
+  .sub2 {
+    padding:0 80px;
+  }
+  .sub3 {
+    padding:0 100px 0 80px;
+  }
+}
+@media screen and (max-width: 750px){
+  .content{
+    padding:0 30px;
+  }
+  .sub{
+    padding:0 30px;
+  }
+  .marginsub{
+    margin:0 30px;
+  }
+  .subcon {
+    margin: 5px;
+    padding: 10px 15px 15px;
+  }
+  .newsub {
+    padding:0
+  }
+  .sub2 {
+    padding:0 15px;
+  }
+  .sub3 {
+    padding:0 15px;
+  }
+
+  .smallpic {display: none;}
+  .stxt dl {width: 100%;margin-left: 0;}
+
+  .titleHint{
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  .titleHint div{
+    width: 40px;
+    margin: 0 5px;
+  }
+}
