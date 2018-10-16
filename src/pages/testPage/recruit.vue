@@ -596,7 +596,7 @@
 <style>
     @import "../../assets/css/subTab.css";
     body,html {background: #f1f1f1;}
-    .about .contentContainer {min-height: 50vh;}
+    /* .about .contentContainer {min-height: 50vh;} */
     .section1 {background:#152d39;}
     .section1 .content {display: none;}
     .info1 {display: flex;justify-content: space-between;margin-top: 120px;align-items: center;z-index:1;}

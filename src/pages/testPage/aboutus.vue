@@ -1,5 +1,5 @@
 <template>
-    <div class="about">
+    <div class="about" id="about">
         <head-nav ref="header"></head-nav>
         <tab1 class="section1" slot="info1"></tab1>
 
@@ -134,7 +134,7 @@
 <style>
     @import "../../assets/css/subTab.css";
     body,html {background: #f1f1f1;}
-    .about .contentContainer {min-height: 50vh;}
+    /* .about .contentContainer {min-height: 50vh;} */
     .section1 {background:#152d39;}
     .section1 .content {display: none;}
     .info1 {display: flex;justify-content: space-between;margin-top: 120px;align-items: center;z-index:1;}
@@ -146,7 +146,7 @@
     /* .sub {background: #f1f1f1;} */
     .substance {position: relative;z-index:1000;margin-top:-480px;margin-bottom: 8px;}
     .sborder {border:3px solid #fff;}
-    .subcon {background: #fff;}
+    .subcon {background: #fff;box-shadow:0 0 20px 2px rgba(0,0,0,0.1);}
     .subcon h2 {color:#173444;font-size: 32px;margin-bottom: 8px;}
     .subcon .english {color:#9e9e9e;margin:0;font-size: 16px;}
     .subcon .shape {width: 72px;height: 2px;background: #000;margin:7px auto 0;}
