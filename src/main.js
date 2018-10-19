@@ -18,6 +18,7 @@ MuseUI.theme.add('myTheme', {
   error: MuseUI.Colors.red,
 }).use('myTheme');
 
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

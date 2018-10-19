@@ -138,7 +138,7 @@
     font-size: 44px;
     line-height: 65px;
     color: white;
-    font-family: PingFangSC-Semibold;
+    font-family: PingFangSC-Semibold,Microsoft YaHei;
     margin: 0;
     text-align: right;
   }
@@ -181,7 +181,7 @@
     margin-top: 30px;
     line-height: 24px;
     font-size: 16px;
-    font-family: PingFangSC-Semibold;
+    font-family: PingFangSC-Semibold,Microsoft YaHei;
     margin-bottom: 30px;
   }
   .floatItemImg{

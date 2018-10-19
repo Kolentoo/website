@@ -79,7 +79,7 @@
     color: #173444;
     font-size: 16px;
     line-height: 22px;
-    font-family: PingFangSC-Semibold;
+    font-family: PingFangSC-Semibold,Microsoft YaHei;
     font-weight: bold;
   }
   .mainHint{
@@ -89,7 +89,7 @@
     color: #173444;
     font-size: 16px;
     line-height: 22px;
-    font-family: PingFangSC-Semibold;
+    font-family: PingFangSC-Semibold,Microsoft YaHei;
     font-weight: bold;
   }
   .mainImg{

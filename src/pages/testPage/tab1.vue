@@ -93,8 +93,6 @@
       this.contentTimeout = setTimeout(function () {
         page.currentContent==2?page.currentContent=0:(page.currentContent++)
       },this.freq);
-
-      console.log(this)
     },
     methods:{
       gotoTab(target){

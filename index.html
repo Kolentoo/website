@@ -27,19 +27,15 @@
   </body>
 
   <script>
-    //   $(function(){  
-    //       console.log(222)
-    //     });
+
     window.onload=function(){
 
-        console.log('test')
 
         let home = document.getElementById('home');
 
         if(home){
 
         // css1
-        // console.clear();
 
         var ww = window.innerWidth,
             wh = window.innerHeight;
@@ -113,7 +109,7 @@
             }
             var mat = new THREE.PointsMaterial({
                 color: 0xffffff,
-                map: loader.load('https://s3-us-west-2.amazonaws.com/s.cdpn.io/127738/dotTexture.png'),
+                map:THREE.TextureLoader('/src/assets/img/cricle.png'),
                 transparent: true,
                 alphaTest: 0.8
             });
@@ -176,7 +172,6 @@
         }
 
 
-        console.log('css edn')
         // css3
         var width, height, largeHeader, canvas, ctx, points, target, animateHeader = true;
 
