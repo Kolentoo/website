@@ -1,8 +1,8 @@
 <template>
   <section class="contentContainer">
-    <div class="content">
+    <div class="content" id="newadd">
 
-      <div class="mainGroup">
+      <div class="mainGroup clearfix">
         <div class="titleHint">01.3<div></div>Scene</div>
 
         <div class="logoY">
@@ -12,34 +12,53 @@
           <img src="../../assets/img/img_logo.png">
         </div>
 
-        <div class="floatContainer">
+        <div class="textbox realfr">
+          <dl class="textcon">
+            <dt class="dt1">应用案例1：活使用TOKEN 经济</dt>
+            <dd>跨平台灵活使用Token 经济</dd>
+            <dd>多劳多得，公平公正的激励机制</dd>
+          </dl>
+          <dl class="textcon">
+            <dt class="dt2">生活服务TOKEN经济: <em>商家+所有用户 共享</em></dt>
+            <dd>秉承共建共利的原则，全民参与，提高平台互动，留言/转发推荐/点赞明星产品）都有Token ! </dd>
+            <dd>商家优质产品上排行榜有Token !热门店铺可获得外部赞助商的Token！</dd>
+            <dd>跨店跨平台灵活使用Token！盈利模式最大化</dd>
+            <dd>赋权众包：激励公众人群和成为（公链）推广交易的超级节点*</dd>
+            <dd>新商户入社区   -- 免费</dd>
+            <dd>任何社区交易   -- 免费</dd>
+            <dd>金融交易服务   -- 免费</dd>
+            <dd class="tips">今后还会有更多的应用模块上链，计划中超级节点:打车、外送服务等……</dd>
+          </dl>
+        </div>
 
-          <div class="floatItemTrans" id="trans1" style="float: right">
+        <div class="floatContainer clearfix fr">
+
+          <div class="floatItemTrans hide" id="trans1" style="float: right">
             <p class="titleText" style="margin-top: -15px">落地的&nbsp;&nbsp;&nbsp;</p>
             <p class="titleText">应用场景</p>
           </div>
 
-          <div class="floatItem leftCol">
+          <div class="floatItem leftCol realfr">
             <mu-ripple class="floatItemContainer">
-              <div class="floatItemTitle">打车、拼车应用</div>
-              <div class="floatItemContent">“劳动者”与“消费者”共享的平台，中心化的打车平台可能被去中心化的区块链技术颠覆</div>
+              <div class="floatItemTitle hide">打车、拼车应用</div>
+              <div class="floatItemContent">实现陌生人之间的信任交易，数字货币与法币的自由转换，无法盗取；交易获利迅速稳定，支付方式更安全便捷。</div>
               <div class="floatItemImg">
                 <img src="../../assets/img/tab3/img_01.png"/>
               </div>
             </mu-ripple>
           </div>
 
-          <div class="floatItem">
+          <div class="floatItem realfr">
             <mu-ripple class="floatItemContainer">
-              <div class="floatItemTitle">社交</div>
-              <div class="floatItemContent">在区块链环境下，用户信息高度保密。</div>
+              <div class="floatItemTitle hide">社交</div>
+              <div class="floatItemContent">所有的商家，企业及个人都可以作为一个独立的商业主体，运行使用服务和应用，有效降低运营成本。</div>
               <div class="floatItemImg">
                 <img src="../../assets/img/tab3/img_02.png"/>
               </div>
             </mu-ripple>
           </div>
 
-          <div class="floatItem leftCol">
+          <div class="floatItem leftCol hide">
             <mu-ripple class="floatItemContainer">
               <div class="floatItemTitle">共享</div>
               <div class="floatItemContent">利用闲置资源、实现最有匹配消除资金提供方与资金需求方之间冗长的中介环节，让双方最直接地交易。</div>
@@ -51,9 +70,9 @@
 
 
 
-          <div class="floatItemTrans" id="trans2"></div>
+          <div class="floatItemTrans hide" id="trans2"></div>
 
-          <div class="floatItem">
+          <div class="floatItem hide">
             <mu-ripple class="floatItemContainer">
               <div class="floatItemTitle">发行 Token</div>
               <div class="floatItemContent">代表的是生活平台资源拥有权，用于平台各种应用的支付与对用户的奖励等，方便流通。</div>
@@ -63,7 +82,7 @@
             </mu-ripple>
           </div>
 
-          <div class="floatItem leftCol">
+          <div class="floatItem leftCol hide">
             <mu-ripple class="floatItemContainer">
               <div class="floatItemTitle">赋权众包</div>
               <div class="floatItemContent">将激励公众人群和小众人才社区成为平台（公链）推广和交易的超级节点。</div>
@@ -73,10 +92,10 @@
             </mu-ripple>
           </div>
 
-          <div class="floatItem">
+          <div class="floatItem realfr">
             <mu-ripple class="floatItemContainer">
-              <div class="floatItemTitle">外送服务应用</div>
-              <div class="floatItemContent">网上订餐、跑腿、帮餐厅提供配送服务。</div>
+              <div class="floatItemTitle hide">外送服务应用</div>
+              <div class="floatItemContent">各行各业的新社区 （购物，打车，外卖，维修等） 跨行业，跨地区无边界的资金，资源整合，实时支付便捷。</div>
               <div class="floatItemImg">
                 <img src="../../assets/img/tab3/img_06.png"/>
               </div>
@@ -110,6 +129,11 @@
 
 <style scoped>
   @import "../../assets/css/subTab.css";
+  .fl {float:left;}
+  .fr {float:right;}
+  .realfr {float:right;}
+  .clearfix:after,.clearfix:before{content:" ";display:table}.clearfix:after{clear:both}
+  #newadd .hide {display: none;}
   .logoX{
     opacity: 0.1;
     position: absolute;
@@ -145,14 +169,14 @@
 
   .floatContainer{
     width: 100%;
-    padding-left: 12vw;
+    /* padding-left: 12vw; */
     margin-top: 40px;
     margin-bottom: 20px;
     z-index: 2;
   }
   .floatItem{
     transition: all 0.3s;
-    float: left;
+    /* float: left; */
     width: 21%;
     margin-left: 4%;
     height: 300px;
@@ -197,8 +221,9 @@
     width: 100%;
     font-size: 13px;
     color: white;
-    line-height: 15px;
+    line-height: 30px;
     text-align: left;
+    padding-top: 40px;
   }
   .floatItemTrans{
     border: transparent;
@@ -245,6 +270,13 @@
     padding-bottom: 30px;
   }
 
+  .textbox {color:#fff;width: 71%;margin-top: 50px;}
+  .textbox .dt1 {font-size: 18px;}
+  .textbox .dt2 {font-size: 22px;margin-top: 20px;}
+  .textbox .dt2 em{font-size: 14px;}
+  .textbox .textcon {line-height: 30px;}
+   .textbox .tips {margin-top: 5px;}
+
   @media screen and (max-width: 1500px){
   }
   @media screen and (max-width: 1279px){
@@ -255,7 +287,7 @@
     }
     .floatItem{
       margin-left: 4%;
-      width: 42%;
+      width: 25%;
       margin-right: 4%;
     }
     .floatItemTrans{
@@ -266,9 +298,9 @@
     #trans2{
       display: none;
     }
-    .leftCol{
+    /* .leftCol{
       margin-top: -100px;
-    }
+    } */
     .logoY{
       display: none;
     }
@@ -289,8 +321,11 @@
     }
     .floatItemImg{
       bottom: 20px;
-      width: 40%;
+      width: 35%;
       left: 30%;
+    }
+    .realfr{
+      float:none;width: 80%;margin:20px auto 10px;
     }
 
   }

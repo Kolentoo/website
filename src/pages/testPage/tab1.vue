@@ -34,7 +34,7 @@
           <div class="chart">
             <img class="vm g10" src="../../assets/img/logo.jpg" alt="">
           </div>
-          <p class="p1">03.1 ———— Recruit</p>
+          <p class="p1">02.1 ———— Introduce</p>
         </div>
       </slot>
 
@@ -59,7 +59,7 @@
 
           <div class="leftBottomBtnGroup">
             <div class="leftBottomBtn" @click="currentContent=0" v-bind:class="{'btnInactive':currentContent!=0}">
-              <span>互助平台</span>
+              <span>开放共享平台</span>
               <img src="../../assets/img/tab1/icon_leftbottom.png"/>
             </div>
             <div class="leftBottomBtn" @click="currentContent=1" v-bind:class="{'btnInactive':currentContent!=1}">
@@ -125,7 +125,7 @@
       return{
         currentContent:0,
         textArr:[
-          "区块链真正的价值是一种基于区块链技术的通证化经济模式。",
+          "在区块链技术的创新与实践过程中，我们认识到区块链并不单纯是一种技术，而是一种社会化的“共识信任”理念，这种理念鼓励人们在互联网中建立一套可以被监督并且拥有治理规则的系统。我们积极拥抱区块链技术带来的变革，同时也期待将我们实践和应用区块链技术的经验共享出来，与合作伙伴一同解决区块链应用和推广中仍未解决的问题，而推广这一社会化理念不能依靠一家之力，而需要协同盟友共赢未来。",
           "我们希望用户在基于区块链生态系统打造的平台上获得越来越多的便捷服务。",
           "在“自主创新、安全可信任、开放分享”的设计原则下，打造区块链技术基础服务。",
         ],
@@ -197,10 +197,10 @@
   }
   .titleContent{
     max-width: 550px;
-    font-size: 50px;
+    font-size: 20px;
     color: white;
     text-align: left;
-    line-height: 88px;
+    line-height: 50px;
     margin-left: auto;
     right: 0;
     top: 0;
@@ -354,12 +354,14 @@
       margin: 0 5px;
     }
     .titleContent{
-      font-size: 30px;
-      line-height: 50px;
+      /* font-size: 30px; */
+      font-size:16px;
+      line-height: 30px;
+      /* line-height: 50px; */
       max-width: 330px;
     }
     .titleContentBtn{
-      bottom: -15px;
+      bottom: -80px;
     }
     .smallLogo{
       left: 30px;

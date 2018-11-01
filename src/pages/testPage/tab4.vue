@@ -8,11 +8,19 @@
 
         <div class="floatContainer">
           <div class="floatItem" id="mainTitle">
-            <div class="mainTitle-title">技术实现</div>
-            <div class="mainTitle-btn" id="t-btn1">P2P\加密算法\智能合约</div>
-            <div class="mainTitle-btn" id="t-btn2">开发语言 C++\Go</div>
+            <div class="mainTitle-title hide">技术实现</div>
+            <div class="mainTitle-btn" id="t-btn1">麦迈石墨烯技术 （M-GRAPHENE）</div>
+            <div class="mainTitle-btn" id="t-btn2">首家实现高TPS的核心技术</div>
           </div>
-          <div class="floatItem" id="mainContent">目前的物联网生态体系，依赖中心化的网络管理架构，所有的设备都是通过云服务器连接。随着网络规模的扩大，中心化云服务器、大型服务器和网络设备的基础设施在维护方面将占用高昂成本。在去中心化的物联网愿景中，区块链是发生互动的设备间促进交易处理和协作的框架，网络上的每个设备都可以作为一个独立、微型的商业主体运行。</div>
+          <div class="floatItem" id="mainContent">
+            <p class="p1">麦迈科技打造的以区块链技术为基础的麦酷链通过在技术层面的设计创新--石墨烯技术 m-Graphene 使得价值交换过程中人与人的信任关系更快更强更稳健的转换为人与科技的链接，从而使商业活动得以更低成本的实现。</p>
+            <dl class="textdl">
+              <dd>● 采用数据分片技术（mSharding）</dd>
+              <dd>●	采用带分层的区块链技术(mLayer) </dd>
+              <dd>●	（未来）双链混合共识结构</dd>
+              <dd>●	采用反直觉的随机共识算法PBFT-VRF（基于随机算法的高TPS共识）</dd>
+            </dl>
+          </div>
           <div class="floatItem" id="mainImg">
             <!-- <img src="../../assets/img/tab4/main.png"/> -->
             <div id="large-header" class="large-header">
@@ -57,7 +65,8 @@
 
 <style scoped>
   @import "../../assets/css/subTab.css";
-
+  
+  #mainTitle .hide {display: none;}
   .nav-floatItem{
     transition: all 0.3s;
     float: left;
@@ -123,17 +132,17 @@
   #mainTitle{
     margin-right: 0;
     float: right;
-    margin-top: -40px;
+    margin-top: 80px;
     text-align: right;
   }
   #mainTitle div{
     display: inline-block;
   }
   #t-btn1{
-    max-width: 357px;
+    max-width: 433px;
   }
-  #t-btn1{
-    max-width: 283px;
+  #t-btn2{
+    max-width: 300px;
   }
   .mainTitle-title{
     width: 100%;
@@ -189,6 +198,8 @@
   .smallLogo img{
     width: 100%;
   }
+
+  .textdl {margin-top: 30px;}
 
 
   @media screen and (max-width: 1500px){
@@ -252,6 +263,8 @@
     #mainImg{
       padding: 0 5vw;
       display: block;
+      max-height:250px;
+      margin-top: 30px;
     }
     #mainTitle{
       display: block;
