@@ -12,6 +12,8 @@
           <img src="../../assets/img/img_logo.png">
         </div>
 
+        
+
         <div class="textbox realfr">
           <dl class="textcon">
             <dt class="dt1">应用案例1：活使用TOKEN 经济</dt>
@@ -30,6 +32,8 @@
             <dd class="tips">今后还会有更多的应用模块上链，计划中超级节点:打车、外送服务等……</dd>
           </dl>
         </div>
+
+        <canvas class="canvas" id="canvas"></canvas>
 
         <div class="floatContainer clearfix fr">
 
@@ -275,7 +279,9 @@
   .textbox .dt2 {font-size: 22px;margin-top: 20px;}
   .textbox .dt2 em{font-size: 14px;}
   .textbox .textcon {line-height: 30px;}
-   .textbox .tips {margin-top: 5px;}
+  .textbox .tips {margin-top: 5px;}
+
+  #canvas {width: 100%;position: absolute;top: -7vh;right: -25vw;}
 
   @media screen and (max-width: 1500px){
   }
@@ -307,6 +313,7 @@
     .logoX{
       display: block;
     }
+    .textbox {width: 95%;}
   }
   @media screen and (max-width: 750px){
     .content{
@@ -327,6 +334,7 @@
     .realfr{
       float:none;width: 80%;margin:20px auto 10px;
     }
+    #canvas {position: static;height: 500px}
 
   }
 </style>
