@@ -281,7 +281,7 @@
   .textbox .textcon {line-height: 30px;}
   .textbox .tips {margin-top: 5px;}
 
-  #canvas {width: 100%;position: absolute;top: -7vh;right: -25vw;}
+  #canvas {width: 80%;position: absolute;top: -2vh;right: -16vw;}
 
   @media screen and (max-width: 1500px){
   }

@@ -52,6 +52,14 @@
 
           <div class="titleContent">
             <div>{{textArr[currentContent]}}</div>
+            <div v-if="currentContent===1">
+              <p class="p1 ptxt">文化、教育、生活 <br>医疗、支付、物联 <br>汽车、租赁</p>
+            </div>
+            <div v-if="currentContent===2">
+              <p class="ptxt ptxt1">首家实现高TPS <br> 核心技术</p>
+              <p class="ptxt ptxt2">麦迈石墨烯技术 (m-Graphene)</p>
+              <p class="ptxt ptxt3">更快更强 柔韧度高且极其稳定 完备可靠</p>
+            </div>
             <mu-ripple class="titleContentBtn" @click="gotoTab2">+ More</mu-ripple>
 
 
@@ -126,8 +134,8 @@
         currentContent:0,
         textArr:[
           "在区块链技术的创新与实践过程中，我们认识到区块链并不单纯是一种技术，而是一种社会化的“共识信任”理念，这种理念鼓励人们在互联网中建立一套可以被监督并且拥有治理规则的系统。我们积极拥抱区块链技术带来的变革，同时也期待将我们实践和应用区块链技术的经验共享出来，与合作伙伴一同解决区块链应用和推广中仍未解决的问题，而推广这一社会化理念不能依靠一家之力，而需要协同盟友共赢未来。",
-          "文化、教育、生活、医疗、支付、物联、汽车租赁",
-          "麦迈科技打造的以区块链技术为基础的麦酷链通过在技术层面的设计创新--石墨烯技术 m-Graphene 使得价值交换过程中人与人的信任关系更快更强更稳健的转换为人与科技的链接，从而使商业活动得以更低成本的实现。",
+          "",
+          "",
         ],
         contentTimeout:null,
         freq:8000
@@ -196,7 +204,7 @@
     position: relative;
   }
   .titleContent{
-    max-width: 550px;
+    max-width: 600px;
     font-size: 20px;
     color: white;
     text-align: left;
@@ -307,6 +315,10 @@
   .btnInactive img{
     opacity: 0;
   }
+  .ptxt {font-size: 40px;line-height: 72px;}
+  .ptxt1 {font-size: 60px;line-height: 1.5;}
+  .ptxt2 {font-size: 22px;margin-top: 10px;background:#2831aa;width: 320px;height: 40px;line-height: 40px;text-align: center;}
+  .ptxt3 {font-size: 16px;}
 
 
   @media screen and (max-width: 1500px){

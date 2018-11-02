@@ -200,6 +200,7 @@
   }
 
   .textdl {margin-top: 30px;}
+  /* #demo-canvas {opacity: 0;} */
 
 
   @media screen and (max-width: 1500px){
